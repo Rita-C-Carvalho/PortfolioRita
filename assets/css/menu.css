@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-spacing: 200px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.menu a:hover{
+  text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 0 0 15px deepskyblue, 0 0 15px deepskyblue;
+  font-size: 20px;
+}

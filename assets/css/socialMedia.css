@@ -1,0 +1,28 @@
+.social-media img{
+    width: 80px;
+    height: 80px;
+  }
+
+.linkedin img{
+  animation: hover 7s ease-in-out normal;
+}
+
+.git img{
+  animation: hover 8s ease-in-out normal;
+}
+
+.zap img{
+  animation: hover 9s ease-in-out normal;
+}
+
+.social-media img:hover{
+    width: 100px;
+    height: 100px;
+  }
+
+.social-media a{
+    text-decoration: none;
+    padding: 1rem 4rem;
+    border: none;
+    width: 60px;
+  }

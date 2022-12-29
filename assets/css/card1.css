@@ -1,0 +1,16 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    padding: 0px;
+    height: 680px;  
+    width: 1460px;
+    border-radius: 10px;
+    background-image: linear-gradient(-45deg, rgb(39,32,86),
+     rgb(72,48,72), rgb(135,80,161), rgb(9, 8, 40), rgb(41, 48, 136), rgb(159, 136, 216));
+    box-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 0 0 15px deepskyblue, 
+    0 0 15px deepskyblue;
+    animation: hover 1s ease-in-out normal;  
+}

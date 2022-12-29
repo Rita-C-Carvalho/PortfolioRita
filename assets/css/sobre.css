@@ -1,0 +1,66 @@
+#pageContainer{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-45deg, rgb(159, 136, 216), deepskyblue,
+     deepskyblue, rgb(135,80,161),rgb(72,48,72), rgb(39,32,86));
+    border-radius: 10px;
+    margin: 5rem 2rem;
+    box-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 0 0 15px deepskyblue, 
+    0 0 15px deepskyblue;
+}
+
+.cardPageContainer1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.cardPageContainer2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.textProfessionalAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.cardProfessionalAbout{
+    flex-direction: row;
+    width: 70%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.textPersonalAbout{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 70%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+.cardPersonalAbout{
+    height: 300px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

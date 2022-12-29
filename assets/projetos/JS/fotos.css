@@ -1,0 +1,35 @@
+.jdv{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    margin-left: 100px;
+    justify-content:end;
+    align-items: flex-end;
+    box-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 0 0 15px deepskyblue, 
+    0 0 15px deepskyblue;
+}
+
+.delta{
+        display: flex;
+        width: 450px;
+        height: 300px;
+        border-radius: 0px;
+        margin-left: 100px;
+        justify-content:end;
+        align-items: flex-end;
+        box-shadow: 0 0 3px white, 0 0 7px white, 0 0 15px white, 
+        0 0 15px white;
+}
+
+.memory{
+        display: flex;
+        width: 300px;
+        height: 300px;
+        border-radius: 0px;
+        margin-left: 100px;
+        justify-content:end;
+        align-items: flex-end;
+        box-shadow: 0 0 3px red, 0 0 7px red, 0 0 15px red, 
+        0 0 15px red;red
+}

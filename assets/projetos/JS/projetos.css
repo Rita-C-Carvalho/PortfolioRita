@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+
+
+body{
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#projects{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2rem 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 0 0 15px deepskyblue,
+    0 0 15px deepskyblue;
+}
+
+.card_conteudopagina{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly; /* nesse comando os itens são distribuidos para que o espaçamento entre dois itens (e o espaço nas bordas) seja igual.*/
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 0 0 15px deepskyblue,
+    0 0 15px deepskyblue;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/*CARD PROJETO JOGO*/
+
+.card_jogo{
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0 0;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 
+    0 0 15px deepskyblue, 0 0 15px deepskyblue;
+}
+
+.card_playing a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 600px;
+}
+
+.card_playing a:hover{
+    font-size: 40px;
+    text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 
+    0 0 15px deepskyblue, 0 0 15px deepskyblue;
+}
+
+.card_textojogo{
+    width: 50%;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 150px;
+}
+
+/*CARD PROJETO DELTA*/
+
+.title{
+    margin-top: 10rem;
+}
+
+.card_Delta{
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 
+    0 0 15px deepskyblue, 0 0 15px deepskyblue;
+}
+
+.card_calcular a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 720px;
+}
+
+.card_calcular a:hover{
+    font-size: 40px;
+    text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 
+    0 0 15px deepskyblue, 0 0 15px deepskyblue;
+}
+
+.card_textoDelta{
+    width: 50%;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.voltar{
+    margin-top: 40px;
+    width: 6%;
+    height: 6%;
+    margin-left: 1200px;
+}
+
+.home{
+    color: pink;
+    margin-left: 1220px;
+    text-decoration: none;
+}
+
+.a_home{
+    text-decoration: none;
+}
+.a_home:hover{
+    text-shadow: 0 0 3px pink, 0 0 7px pink, 
+    0 0 15px pink, 0 0 15px pink;
+    
+}
+
+.a_home img:hover{
+    width: 7%;
+    height: 7%;
+}

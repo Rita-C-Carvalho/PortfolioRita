@@ -111,6 +111,23 @@ h1{
     color: white;
 }
 
+/*CARD JOGO DA VELHA*/
+.card_playing_jdv a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 600px;
+}
+
+.card_playing_jdv a:hover{
+    font-size: 40px;
+    text-shadow: 0 0 3px deepskyblue, 0 0 7px deepskyblue, 
+    0 0 15px deepskyblue, 0 0 15px deepskyblue;
+}
+
+
+/*CARD VOLTAR*/
 .voltar{
     margin-top: 40px;
     width: 6%;

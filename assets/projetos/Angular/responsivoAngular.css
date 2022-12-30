@@ -5,6 +5,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: auto;
     }
     
     .card_pageContainer{
@@ -41,6 +42,8 @@
         font-size: 15px;
         text-align: left;
         margin-right: 180px;
+        text-shadow: 0 0 3px white, 0 0 7px white, 0 0 15px white,
+        0 0 15px white;
     }
 
     .card_enter a:hover{
@@ -58,7 +61,7 @@
         margin-top: 40px;
         width: 6%;
         height: 6%;
-        margin-left: 95%;
+        margin-left: 87%;
     }
     
     .home{
@@ -66,5 +69,8 @@
         margin-left: 350px;
         text-decoration: none;
         font-size: 10px;
+        margin-left: 87%;
+        text-shadow: 0 0 3px pink, 0 0 7px pink, 
+        0 0 15px pink, 0 0 15px pink;
     }
 }

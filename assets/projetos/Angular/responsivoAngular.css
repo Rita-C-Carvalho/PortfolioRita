@@ -1,0 +1,69 @@
+@media(max-width:900px){
+    #projects{
+        width: 86%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .card_pageContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .card_ecommerce{
+        height: autopx;
+        width: 100%;
+        margin: 0rem;
+    }
+
+    .ecommerce{
+        display: flex;
+        width: 250px;
+        height: 175px;
+        border-radius: 0px;
+        margin-left: 10px;
+    }
+
+    .card_enter a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        text-align: left;
+        margin-right: 180px;
+    }
+
+    .card_enter a:hover{
+        font-size: 15px;
+    }
+
+    .card_textoEcommerce{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .voltar{
+        margin-top: 40px;
+        width: 6%;
+        height: 6%;
+        margin-left: 350px;
+    }
+    
+    .home{
+        color: pink;
+        margin-left: 350px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}

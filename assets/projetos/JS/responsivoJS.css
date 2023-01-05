@@ -18,9 +18,11 @@
     }
 
     h1{
-        font-size: 20px;
+        font-size: 15px;
         letter-spacing: 3px;
         text-align: center;
+        margin-top: 30px;
+        margin-bottom: -10px;
     }
 
     .voltar{
@@ -69,7 +71,7 @@
         border-radius: 0px;
         margin-left: 5px;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .card_textojogo{
@@ -152,7 +154,7 @@
         border-radius: 0px;
         margin-left: 5px;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .card_textojogo{

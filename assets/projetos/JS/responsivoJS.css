@@ -130,19 +130,13 @@
     }
 
     /*JOGO DA VELHA*/
-    
-    .card_instagram{
-        height: autopx;
-        width: 100%;
-        margin: 0rem;
-    }
 
     .card_playing_jdv a{
         text-decoration: none;
         color: white;
         font-size: 15px;
         text-align: left;
-        margin-right:200px;
+        margin-left: -120px;
         text-shadow: 0 0 3px white, 0 0 7px white, 0 0 15px white,
         0 0 15px white;
     }
@@ -161,14 +155,11 @@
         margin-bottom: 50px;
     }
 
-    .card_textoInstagram{
+    .card_textojogo{
         display: flex;
         flex-direction: row;
         width: 80%;
         font-size: 10px;
         margin-top: 20px;
-    }
-
-
-    
+    }   
 }

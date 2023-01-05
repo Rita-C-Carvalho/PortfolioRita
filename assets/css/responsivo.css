@@ -17,7 +17,7 @@
     margin-right: 2%;
 }
     .menu{
-        word-spacing: 10px;
+        word-spacing: 30px;
     }
 
     /*CARD 2*/
@@ -60,7 +60,6 @@
         margin-left: 2%;
         margin-right: 2%;
         width: 95%;
-        
       }
 
       .cardPageContainer1{
@@ -84,7 +83,7 @@
       .lp{
         width: 50%;
         height: 50%;
-        margin-left: 20px;
+        margin-left: 30%;
       }
 
       .about{
@@ -107,6 +106,7 @@
     .menuLP{
       height: auto;
       width: 80%;
+      padding-bottom: 20px;
     }
 
     .js a img{
@@ -137,6 +137,10 @@
     .css a img:hover{
       height: 70px;
       width: 70px;
+    }
+
+    h1{
+      font-size: 15px;
     }
 
     /*BOTÃO VOLTAR*/
